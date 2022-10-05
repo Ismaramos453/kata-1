@@ -8,16 +8,16 @@ import java.time.LocalDate;
 import java.time.Period;
 
 public class Person {
-    private final String name;
+    private final String nombre;
     private final LocalDate birthdate;
     private final long MILLISECONDS_PER_YEAR = (long) (1000*60*60*24*365.25);
     
-    public Person(String name, LocalDate birthdate){
-        this.name = name;
+    public Person(String nombre, LocalDate birthdate){
+        this.nombre = nombre;
         this.birthdate = birthdate;
     }
     public String getName(){
-        return name;
+        return nombre;
     }
     public LocalDate getBirthdate(){
         return birthdate;

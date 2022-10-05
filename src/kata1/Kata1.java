@@ -14,8 +14,8 @@ public class Kata1 {
         LocalDate date;
         date= LocalDate.of(2001, 11, 13);
         
-        Person person = new Person("Ismael",date );
-        System.out.println(person.getName() + " tiene " + person.getAge());
+        Person persona = new Person("Ismael",date );
+        System.out.println(persona.getName() + " tiene " + persona.getAge());
     }
     
 }
